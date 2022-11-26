@@ -20,16 +20,21 @@ body{
                     margin-bottom: 40px;
                 }
             .Main-contant-section{
-                padding: 100px 90px;
+                padding: 30px 90px 0;
             }
             /* Main-contant-tittle */
             .Main-contant-tittle{
+
                 font-style: normal;
                 font-weight: bold;
                 font-size: 22px;
                 line-height: 27px;
-                color: #000000;
+                color: #fff;
                 margin-bottom: 10px;
+                background-color: #1E2939;
+            }
+            .about-me-proffesion-section{
+                color: #FB6D3A;
             }
         .about-me-proffesion{
             font-style: normal;
