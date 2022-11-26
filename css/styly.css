@@ -1,13 +1,18 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
+    text-decoration: none;
+    
+    
+    
 }
             .main-conteiner-section{
                 display: flex;
                 flex-direction: row-reverse;
                 width: 1200px;
-                background-color: #fff;
+                background-color: #FEF;
                 margin: 40px auto;
+                
             }
                 /* Main-contant-section */
                 /* about-me-section */
@@ -60,7 +65,11 @@ body{
         .my-projects-item{ 
             font-weight: bold;
             color: #000;
+            margin-bottom: 15px;
         }
+                .my-projects-item:last-child{
+                    margin-bottom: 0;
+                }
         .my-projects-text{
             color: #595959;
             font-style: normal;
@@ -101,6 +110,8 @@ body{
             font-size: 16px;
             line-height: 20px;
             margin-bottom: 10px;
+            text-decoration: none;
+            color: #000;
         }
     .My-work-experience-time{
         font-style: normal;
@@ -142,6 +153,10 @@ body{
                     font-size: 16px;
                     line-height: 20px;
                     color: #FB6D3A;
+                    
+}
+.education-item{
+    margin-bottom: 60px;
 }
                 .speciality{
                     font-style: normal;
@@ -158,7 +173,7 @@ body{
             width: 370;
             background-color: #1E2939;
             width: 370px;
-            padding: 40px 0;
+            
         }
         .Tech-skilles{
             margin: 50px 0 0 40px;
@@ -171,7 +186,7 @@ body{
             color: #fff;
         }
         
-        }
+        
          .header{
             font-style: normal;
             font-weight: bold;
@@ -191,11 +206,12 @@ body{
             
         }
         .contacs-section-link{
-            color: #565e6a;
+            color: #fff;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
             line-height: 24px;
+            text-decoration: none;
         }
          /* Tech-skilles-section */
             .Tech-skilles-list{
